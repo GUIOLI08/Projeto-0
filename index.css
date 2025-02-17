@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+
+li{
+
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.search{
+    width: 500px;
+    height: 40px;
+    background-color: ;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
+    border: 0px;
+    border-radius: 30px;
+}
