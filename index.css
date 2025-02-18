@@ -1,30 +1,67 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    gap: 0px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
 }
 
-li{
-
-    list-style: none;
+nav {
+  padding: 10px 30px;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-a:hover{
-    color: black;
-    text-decoration: underline;
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
 }
 
-.search{
-    width: 500px;
-    height: 40px;
-    background-color: ;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
-    border: 0px;
-    border-radius: 30px;
+.nav-list li {
+  list-style: none;
+  padding: 10px;
+}
+
+.logo1{
+    position: relative;
+    margin-left: 800px;
+    margin-top: 200px;
+}
+
+.input1{
+    width: 630px;
+    height: 50px;
+    position: relative;
+    margin-left: 607px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px #00000069;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.input1:focus{
+    outline: none;
+}
+
+.button1{
+    position: relative;
+    background-color: rgba(183, 183, 183, 0.226);
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 35px;
+    margin-left: 867px;
+}
+
+.button1:hover{
+    border:1px solid rgba(29, 29, 29, 0.226);
 }
