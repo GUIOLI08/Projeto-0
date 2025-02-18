@@ -8,19 +8,23 @@
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="googlesearch.html" target="_blank">Google Search</a></li>
-            <li><a href="googleadvancedsearch.html" target="_blank">Advanced Search</a></li>
-        </ul>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="googlesearch.html">Google Search</a></li>
+                <li><a href="googleadvancedsearch.html">Advanced Search</a></li>
+            </ul>
+        </nav>
     </header>
     <div>
         <img class="logo1" src="/Images/googlelogo_light_color_272x92dp.png" alt="">
+        <span id="image">Images</span>
     </div>
     <div>
         <form action="https://google.com.br/search">
-            <input type="text" name="q">
+            <input class="input1" type="text" name="q">
+            <input type="hidden" name="tbm" value="isch">
             <br>
-            <input type="submit" value="Google Search">
+            <input class="button1" type="submit" value="Google Image Search">
         </form>
     </div>
     <footer>
