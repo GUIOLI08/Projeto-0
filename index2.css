@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+nav{
+    padding: 10px 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 10px;
+}
+img{
+    position: absolute;
+    margin: 20px;
+}
+#advanced_search{
+    color: red;
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+header{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.152);
+    padding-bottom: 20px;
+}
+#div1{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.152);
+    padding-bottom: 40px;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    padding-top: 35px;
+}
+.input1{
+    margin: 10px;
+    width: 450px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+}
+.input1:focus{
+    outline: 1px solid rgb(66, 165, 245);
+}
+.input2{
+    margin: 10px;
+    width: 450px;
+    height: 20px;
+    position: relative;
+    left: 132px;
+}
+.input2:focus{
+    outline: 1px solid rgb(66, 165, 245);
+}
+.input3{
+    margin: 10px;
+    width: 450px;
+    height: 20px;
+    position: relative;
+    left: 170px;
+}
+.input3:focus{
+    outline: 1px solid rgb(66, 165, 245);
+}
+.input3{
+    margin: 10px;
+    width: 450px;
+    height: 20px;
+    position: relative;
+    left: 170px;
+}
+.input3:focus{
+    outline: 1px solid rgb(66, 165, 245);
+}
+.input4{
+    margin: 10px;
+    width: 450px;
+    height: 20px;
+    position: relative;
+    left: 165px;
+}
+.input4:focus{
+    outline: 1px solid rgb(66, 165, 245);
+}
+.label1{
+    margin: 10px;
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 0.592);
+    font-size: 14px;
+}
+.input5{
+    height: 20px;
+    position: relative;
+    left: 161px;
+}
+.input6{
+    margin: 10px;
+    height: 20px;
+    position: relative;
+    left: 231px;
+}
+.label2{
+    position: relative;
+    top: 1px;
+    left: 200px;
+    color: rgba(0, 0, 0, 0.592);
+    font-size: 14px;
+}
+#Find{
+    margin: 50px;
+    position: relative;
+    top: 55px;
+}
+#title{
+    position: relative;
+    font-size: 14px;
+    left: 540px;
+}
+#div2{
+    position: relative;
+    font-size: 14px;
+    left: 140px;
+    bottom: 20px;
+    
+}
+#bill{
+    position: relative;
+    bottom: 1px;
+}
+#div2 p{
+    color: rgba(0, 0, 0, 0.592);
+}
+#div2 b{
+    color: rgb(0, 0, 0);
+}
+.butao{
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+#div3{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.152);
+    padding-bottom: 40px;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    padding-top: 35px;
+    top: 530px;
+}
+#then{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}

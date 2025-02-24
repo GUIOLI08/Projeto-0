@@ -8,23 +8,70 @@
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="googlesearch.html" target="_blank">Google Search</a></li>
-            <li><a href="googleimagesearch.html" target="_blank">Image Search</a></li>
-        </ul>
+        <img src="Images/googlelogo_light_color_272x92dp.png" alt="Google image" width="90px">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="googlesearch.html">Google Search</a></li>
+                <li><a href="googleimagesearch.html">Image Search</a></li>
+            </ul>
+        </nav>
+        <label id="advanced_search">Advanced Search</label>
     </header>
-    <div>
-        <img class="logo1" src="/Images/googlelogo_light_color_272x92dp.png" alt="">
+    <b id="Find">Find pages with...</b>
+    <br><br><br>
+    <div id="div1">
+        <div>
+            <form action="https://google.com.br/search">
+                <label class="label1" for="1">all these words</label>
+                <input class="input1" type="text" name="as_q">
+                <br>
+                <label class="label1" for="">this exact word or phrase:</label>
+                <input class="input2"type="text" name="as_epq">
+                <br>
+                <label class="label1" for="">any of these words:</label>
+                <input class="input3" type="text" name="as_oq">
+                <br>
+                <label class="label1" for="">none of these words</label>
+                <input class="input4" type="text" name="as_eq">
+                <br>
+                <label class="label1" for="">numbers ranging from:</label>
+                <input class="input5" type="text" name="as_nlo">
+                <label class="label2" for="2">to</label>
+                <input class="input6" id="2" type="text" name="as_nhi">
+                <button class="butao" type="submit"></button>
+            </form>
+        </div>
+        <div id="div2">
+            <b id="bill">To do this in the search box.</b>
+            <p>Type the important words: <b>tri-colour rat terrier</b></p>
+            <p style="position: relative; top: 21px;">Put exact words in quotes: <b>"rat terrier"</b></p>
+            <p style="position: relative; top: 36px;">Type OR between all the words you want: <b>miniature OR standard</b></p>
+            <p style="position: relative; top: 46px;">Put a minus sign just before words that you don't want: <br><b>-rodent, -"Jack Russell"</b></p>
+            <p style="position: relative; top: 46px;">Put two full stops between the numbers and add a unit of measurement: <br><b>10..35 kg, £300..£500, 2010..2011</b></p>
+        </div>
     </div>
-    <div>
-        <form action="https://google.com.br/search">
-            <input type="text" name="q">
-            <br>
-            <input type="submit" value="Google Search">
-        </form>
-    </div>
-    <footer>
-
-    </footer>
+    <div id="div3">
+        <b id="then">Then narrow your results by...</b>
+        <div>
+            <form action="https://google.com.br/search">
+                <label class="label1" for="1">all these words</label>
+                <input class="input1" type="text" name="as_q">
+                <br>
+                <label class="label1" for="">this exact word or phrase:</label>
+                <input class="input2"type="text" name="as_epq">
+                <br>
+                <label class="label1" for="">any of these words:</label>
+                <input class="input3" type="text" name="as_oq">
+                <br>
+                <label class="label1" for="">none of these words</label>
+                <input class="input4" type="text" name="as_eq">
+                <br>
+                <label class="label1" for="">numbers ranging from:</label>
+                <input class="input5" type="text" name="as_nlo">
+                <label class="label2" for="2">to</label>
+                <input class="input6" id="2" type="text" name="as_nhi">
+                <button class="butao" type="submit"></button>
+            </form>
+        </div>
 </body>
 </html>
