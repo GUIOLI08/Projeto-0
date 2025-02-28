@@ -1,10 +1,24 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial';
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+header{
+    width: 100%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.26);
+    padding-bottom: 60px;
+}
+
 nav{
     padding: 10px 30px;
+}
+.nav-list{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+    top: 10px;
 }
 a{
     text-decoration: none;
@@ -13,156 +27,127 @@ a{
 a:hover{
     text-decoration: underline;
 }
-.nav-list{
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-}
-
-.nav-list li{
-    list-style: none;
-    padding: 10px;
-}
-img{
-    position: absolute;
-    margin: 20px;
-}
-#advanced_search{
+#title{
     color: red;
     font-size: 20px;
-    margin-left: 50px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    position: relative;
+    top: 30px;
+    left: 30px;
 }
-header{
-    border-bottom: 2px solid rgba(0, 0, 0, 0.152);
-    padding-bottom: 20px;
-}
-#div1{
-    border-bottom: 2px solid rgba(0, 0, 0, 0.152);
-    padding-bottom: 40px;
+.div1{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.26);
+    padding: 3%;
     display: flex;
-    width: 100%;
-    position: absolute;
-    padding-top: 35px;
+    flex-direction: row;
+    padding-top: 40px;
 }
-.input1{
-    margin: 10px;
-    width: 450px;
-    height: 20px;
-    position: relative;
-    left: 200px;
-}
-.input1:focus{
-    outline: 1px solid rgb(66, 165, 245);
-}
-.input2{
-    margin: 10px;
-    width: 450px;
-    height: 20px;
-    position: relative;
-    left: 132px;
-}
-.input2:focus{
-    outline: 1px solid rgb(66, 165, 245);
-}
-.input3{
-    margin: 10px;
-    width: 450px;
-    height: 20px;
-    position: relative;
-    left: 170px;
-}
-.input3:focus{
-    outline: 1px solid rgb(66, 165, 245);
-}
-.input3{
-    margin: 10px;
-    width: 450px;
-    height: 20px;
-    position: relative;
-    left: 170px;
-}
-.input3:focus{
-    outline: 1px solid rgb(66, 165, 245);
-}
-.input4{
-    margin: 10px;
-    width: 450px;
-    height: 20px;
-    position: relative;
-    left: 165px;
-}
-.input4:focus{
-    outline: 1px solid rgb(66, 165, 245);
-}
-.label1{
-    margin: 10px;
-    margin-left: 50px;
-    color: rgba(0, 0, 0, 0.592);
-    font-size: 14px;
-}
-.input5{
-    height: 20px;
-    position: relative;
-    left: 161px;
-}
-.input6{
-    margin: 10px;
-    height: 20px;
-    position: relative;
-    left: 231px;
-}
-.label2{
-    position: relative;
-    top: 1px;
-    left: 200px;
-    color: rgba(0, 0, 0, 0.592);
-    font-size: 14px;
-}
-#Find{
-    margin: 50px;
-    position: relative;
-    top: 55px;
-}
-#title{
-    position: relative;
-    font-size: 14px;
-    left: 540px;
-}
-#div2{
-    position: relative;
-    font-size: 14px;
-    left: 140px;
-    bottom: 20px;
-    
-}
-#bill{
-    position: relative;
-    bottom: 1px;
-}
-#div2 p{
-    color: rgba(0, 0, 0, 0.592);
-}
-#div2 b{
-    color: rgb(0, 0, 0);
-}
-.butao{
-    background: transparent;
-    border: none !important;
-    font-size:0;
-}
-#div3{
-    border-bottom: 2px solid rgba(0, 0, 0, 0.152);
-    padding-bottom: 40px;
+.div2{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.26);
+    padding: 3%;
     display: flex;
-    width: 100%;
-    position: absolute;
-    padding-top: 35px;
-    top: 530px;
+    flex-direction: row;
+    padding-top: 30px;
 }
-#then{
-    position: absolute;
-    left: 50px;
-    top: 0px;
+.div1-div2{
+    padding-left: 30px;
+    position: relative;
+    bottom: 10px;
+}
+.input-1{
+    width: 500px;
+    height: 20px;
+    margin-left: 100px;
+}
+.input-1:focus{
+    outline:rgb(0, 238, 255) 2px;
+}
+.input-2{
+    width: 500px;
+    height: 20px;
+    margin-left: 28px;
+}
+.input-2:focus{
+    outline:rgb(0, 238, 255);
+}
+.input-3{
+    width: 500px;
+    height: 20px;
+    margin-left: 72px;
+}
+.input-3:focus{
+    outline:rgb(0, 238, 255) 2px;
+}
+.input-4{
+    width: 500px;
+    height: 20px;
+    margin-left: 66px;
+}
+.input-4:focus{
+    outline:rgb(0, 238, 255) 2px;
+}
+.input-5x{
+    width: 219px;
+    height: 20px;
+    margin-left: 49px;
+}
+.input-5y{
+    width: 219px;
+    height: 20px;
+    margin-left: 16px;
+}
+.label-5y{
+    margin-left: 15px;
+}
+.input-6{
+    width: 500px;
+    height: 20px;
+    margin-left: 105px;
+}
+.select-1{
+    width: 508.5px;
+    height: 25px;
+    margin-left: 139px;
+}
+.select-2{
+    width: 508.5px;
+    height: 25px;
+    margin-left: 160px;
+}
+.select-3{
+    width: 508.5px;
+    height: 25px;
+    margin-left: 126px;
+}
+.select-4{
+    width: 508.5px;
+    height: 25px;
+    margin-left: 94px;
+}
+.select-5{
+    width: 508.5px;
+    height: 25px;
+    margin-left: 150px;
+}
+.select-6{
+    width: 508.5px;
+    height: 25px;
+    margin-left: 118px;
+}
+.div-2-div-2{
+    padding-left: 30px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.button{
+    background-color: rgb(47, 132, 244);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 576px;
+    border-radius: 3px;
+    border: 2px solid transparent;
+}
+.button:hover{
+    background-color: rgb(9, 112, 246);
 }

@@ -1,77 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index2.css">
-    <title>Google</title>
+    <title>Google Advanced Search</title>
 </head>
 <body>
     <header>
-        <img src="Images/googlelogo_light_color_272x92dp.png" alt="Google image" width="90px">
+        <img style="margin: 30px; position: absolute;" src="Images/googlelogo_light_color_272x92dp.png" alt="Google image" width="90px">
         <nav>
             <ul class="nav-list">
                 <li><a href="googlesearch.html">Google Search</a></li>
                 <li><a href="googleimagesearch.html">Image Search</a></li>
             </ul>
         </nav>
-        <label id="advanced_search">Advanced Search</label>
+        <label id="title">Advanced Search</label>
     </header>
-    <b id="Find">Find pages with...</b>
-    <br><br><br>
-    <div id="div1">
-        <div>
-            <form action="https://google.com.br/search">
-                <label class="label1" for="1">all these words</label>
-                <input class="input1" type="text" name="as_q">
-                <br>
-                <label class="label1" for="">this exact word or phrase:</label>
-                <input class="input2"type="text" name="as_epq">
-                <br>
-                <label class="label1" for="">any of these words:</label>
-                <input class="input3" type="text" name="as_oq">
-                <br>
-                <label class="label1" for="">none of these words</label>
-                <input class="input4" type="text" name="as_eq">
-                <br>
-                <label class="label1" for="">numbers ranging from:</label>
-                <input class="input5" type="text" name="as_nlo">
-                <label class="label2" for="2">to</label>
-                <input class="input6" id="2" type="text" name="as_nhi">
-                <button class="butao" type="submit"></button>
-            </form>
+    <form action="https://google.com.br/search">
+        <div class="div1">
+            <div class="div1-div1">
+                <b>Find pages with...</b>
+                <br><br>
+                <label for="">all these words:</label>
+                <input class="input-1" type="text" name="as_q">
+                <br><br>
+                <label for="">this exact word or phrase:</label>
+                <input class="input-2" type="text" name="as_epq">
+                <br><br>
+                <label for="">any of these words:</label>
+                <input class="input-3" type="text" name="as_oq">
+                <br><br>
+                <label for="">none of these words</label>
+                <input class="input-4" type="text" name="as_eq">
+                <br><br>
+                <label for="">numbers ranging from:</label>
+                <input class="input-5x" type="text" name="as_nlo">    
+                <label class="label-5y" for="">to</label>
+                <input class="input-5y" type="text" name="as_nhi">
+            </div>
+            <b style="position: absolute;margin-left: 726px;">To do this in the search box.</b>
+            <div class="div1-div2">
+                <br><br>
+                <p style="font-size: 14px;">Type the important words: <b>tri-colour rat terrier</b></p>
+                <p style="font-size: 14px; margin-top: 28px;">Put exact words in quotes: <b>"rat terrier"</b></p>
+                <p style="font-size: 14px; margin-top: 28px;">Type OR between all the words you want: <b>miniature OR standard</b></p>
+                <p style="font-size: 14px; margin-top: 17px;">Put a minus sign just before words that you don't want: <br><b>-rodent, -"Jack Russell"</b></p>
+                <p style="font-size: 14px; margin-top: 17px;">Put two full stops between the numbers and add a unit of measurement: <br><b>10..35 kg, £300..£500, 2010..2011</b></p>
+            </div>
         </div>
-        <div id="div2">
-            <b id="bill">To do this in the search box.</b>
-            <p>Type the important words: <b>tri-colour rat terrier</b></p>
-            <p style="position: relative; top: 21px;">Put exact words in quotes: <b>"rat terrier"</b></p>
-            <p style="position: relative; top: 36px;">Type OR between all the words you want: <b>miniature OR standard</b></p>
-            <p style="position: relative; top: 46px;">Put a minus sign just before words that you don't want: <br><b>-rodent, -"Jack Russell"</b></p>
-            <p style="position: relative; top: 46px;">Put two full stops between the numbers and add a unit of measurement: <br><b>10..35 kg, £300..£500, 2010..2011</b></p>
+        <div class="div2">
+            <div class="div-2-div1">
+                <b>Then narrow your results<br>by...</b>
+                <br><br>
+                <label for="language">language:</label>
+                <select class="select-1" name="lr" id="language">
+                    <option value="any language">any language</option>
+                    <option value="Portuguese Brazil">Portuguese Brazil</option>
+                    <option value="Portuguese Portugal">Portuguese Portugal</option>
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Italian">Italian</option>
+                </select>
+                <br><br>
+                <label for="region">region:</label>
+                <select class="select-2" name="cr" id="region">
+                    <option value="any region">any region</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="United States">United States</option>
+                    <option value="French">French</option>
+                    <option value="Italia">Italia</option>
+                </select>
+                <br><br>
+                <label for="lastupdate">last update:</label>
+                <select class="select-3" name="as_qrd" id="lastupdate">
+                    <option value="any time">any time</option>
+                    <option value="past 24 hours">past 24 hours</option>
+                    <option value="past week">past week</option>
+                    <option value="past mounth">past mounth</option>
+                    <option value="past year">past year</option>
+                </select>
+                <br><br>
+                <label for="">site or domain:</label>
+                <input class="input-6" type="text" name="as_sitesearch">
+                <br><br>
+                <label for="termsappearing">terms appearing</label>
+                <select class="select-4" name="as_occt" id="termsappearing">
+                    <option value="anywhere in page">anywhere in page</option>
+                    <option value="in the title of the page">in the title of the page</option>
+                    <option value="in the text of the page">in the text of the page</option>
+                    <option value="in the URL of the page">in the URL of the page</option>
+                    <option value="in links to the page">in links to the page</option>
+                </select>
+                <br><br>
+                <label for="filetype">file type:</label>
+                <select class="select-5" name="as_filetype_input" id="filetype">
+                    <option value="any format">any format</option>
+                    <option value="Adobe Acrobat PDF (.pdf)">Adobe Acrobat PDF (.pdf)</option>
+                    <option value="Microsoft Excel (.xls)">Microsoft Excel (.xls)</option>
+                    <option value="Microsoft Word (.doc)">Microsoft Word (.doc)</option>
+                    <option value="Microsoft PowerPoint (.ppt)">Microsoft PowerPoint (.ppt)</option>
+                </select>
+                <br><br>
+                <label for="usagerights">usage rights:</label>
+                <select class="select-6" name="sur" id=""usagerights>
+                    <option value="not filtered by licence">not filtered by licence</option>
+                    <option value="free to use or share">free to use or share</option>
+                    <option value="free to use or share, even comercially">free to use or share, even comemrcially</option>
+                    <option value="free to use share or modify">free to use share or modify</option>
+                    <option value="free to use, share or modify, even commercially">free to use, share or modify, even commercially</option>
+                </select>
+                <br><br>
+            <input class="button" type="submit" value="Advanced Search">
+            </div>
+            <div class="div-2-div-2">
+                <p style="font-size: 14px;">Find pages in the language that you select.</p>
+                <p style="font-size: 14px; margin-top: 29px;">Find pages published in a particular region.</b></p>
+                <p style="font-size: 14px; margin-top: 29px;">Find pages updated within the time that you specify.</p>
+                <p style="font-size: 14px; margin-top: 20px;">Search one site (like wikipedia.org ) or limit your results to a domain like<br><b>.edu, .org or .gov</b></p>
+                <p style="font-size: 14px; margin-top: 12px;">Search for terms in the whole page, page title or web address, or links to<br>the page you're looking for.></p>
+                <p style="font-size: 14px; margin-top: 15px;">Find pages in the format that you prefer.</p>
+                <p style="font-size: 14px; margin-top: 28px;">Find pages that you are free to use yourself.</p>
+            </div>
         </div>
-    </div>
-    <div id="div3">
-        <b id="then">Then narrow your results by...</b>
-        <div>
-            <form action="https://google.com.br/search">
-                <label class="label1" for="1">all these words</label>
-                <input class="input1" type="text" name="as_q">
-                <br>
-                <label class="label1" for="">this exact word or phrase:</label>
-                <input class="input2"type="text" name="as_epq">
-                <br>
-                <label class="label1" for="">any of these words:</label>
-                <input class="input3" type="text" name="as_oq">
-                <br>
-                <label class="label1" for="">none of these words</label>
-                <input class="input4" type="text" name="as_eq">
-                <br>
-                <label class="label1" for="">numbers ranging from:</label>
-                <input class="input5" type="text" name="as_nlo">
-                <label class="label2" for="2">to</label>
-                <input class="input6" id="2" type="text" name="as_nhi">
-                <button class="butao" type="submit"></button>
-            </form>
-        </div>
+    </form>
 </body>
 </html>
