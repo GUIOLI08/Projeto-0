@@ -39,8 +39,6 @@ a:hover{
     font-size: 16px;
     width: 190px;
     padding: 10px;
-    margin-top: 35px;
-    margin-left: 838px;
     border:1px solid transparent;
     border-radius: 5px
 }
@@ -48,6 +46,30 @@ a:hover{
 .button1:hover{
     border:1px solid rgba(29, 29, 29, 0.117);
     box-shadow: 1px 1px 4px 0px #0000000d;
+}
+
+.button2{
+    position: relative;
+    background-color: rgba(183, 183, 183, 0.226);
+    border: none;
+    font-size: 16px;
+    width: 150px;
+    padding: 10px;
+    border:1px solid transparent;
+    border-radius: 5px
+}
+.button2:hover{
+    border:1px solid rgba(29, 29, 29, 0.117);
+    box-shadow: 1px 1px 4px 0px #0000000d;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    margin-right: 20px;
 }
 
 #image{
